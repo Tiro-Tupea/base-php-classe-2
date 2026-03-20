@@ -1,10 +1,16 @@
 <?php
 
-$nbre = mt_rand();
+$nbre = mt_rand(0, 100);
 
-for ($i = 0; $i <= 100; $i++) {
-    if($nbre % 7){
-        echo "$i est un multiple de 7";
-    }
+echo "$nbre";
+
+    if($nbre%7 == 0) {
+        echo " est un multiple de 7";
+} 
+
+
+for ($i = 0; $i<=70;$i+=7) {
+    echo " $i ";
 }
+
     
